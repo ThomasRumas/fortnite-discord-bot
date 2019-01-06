@@ -28,7 +28,6 @@ function checkMessage() {
                             for (let i = 0; i < apiResponse.items.length; i++) {
                                 reply += ` **${apiResponse.items[i].name}** - ${apiResponse.items[i].cost} vbucks \n`;
                             }
-                            reply += '\n If you want more information about one item tape **!getItemInfo nameOfItem** for example **!getItemInfo Inverted Blade**'
                             msg.reply(reply);
                         }
                     });
@@ -52,7 +51,6 @@ function checkMessage() {
                             for (let i = 0; i < apiResponse.items.length; i++) {
                                 reply += ` **${apiResponse.items[i].name}** - ${apiResponse.items[i].cost} vbucks \n`;
                             }
-                            reply += '\n If you want more information about one item tape **!getItemInfo nameOfItem** for example **!getItemInfo Inverted Blade**'
                             msg.reply(reply);
                         }
                     });
