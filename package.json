@@ -1,0 +1,20 @@
+{
+  "name": "fortnite",
+  "version": "1.0.0",
+  "description": "A discord bot to have fortnite information",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "keywords": [
+    "fortnite",
+    "discord"
+  ],
+  "author": "Thomas Rumas",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "discord.js": "^11.4.2"
+  }
+}
